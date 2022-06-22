@@ -1,0 +1,66 @@
+/* makes the streamer mode notification not as intrusive */
+:root {
+	--stream-mode-hover-duration: 0.2s;
+	--stream-mode-hover-delay: 0.2s;
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	padding: 5px 5px 5px 33px;
+	line-height: 24px;
+	height: 35px;
+	display: flex;
+	column-gap: 5px;
+	flex-direction: row;
+	justify-content: center;
+	box-sizing: border-box;
+	border-radius: 30px 30px 30px 30px / 5px 5px 5px 5px;
+	color: transparent;
+	transform: scaleX(0.17);
+	transform-origin: right;
+	transition: transform var(--stream-mode-hover-duration),
+		border-radius var(--stream-mode-hover-duration),
+		color var(--stream-mode-hover-duration);
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd:hover {
+	transform: scaleX(1);
+	border-radius: 5px;
+	color: white;
+	transition-delay: var(--stream-mode-hover-delay);
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd .button-1iHNQ2 {
+	top: 0;
+	margin: 0;
+	padding: 0 3px;
+	transform: scaleX(6);
+	transform-origin: right;
+	transition: transform var(--stream-mode-hover-duration);
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd:hover .button-1iHNQ2 {
+	transform: scaleX(1);
+	transition-delay: var(--stream-mode-hover-delay);
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd .closeButton-30b1gR {
+	position: static;
+	order: 1;
+	width: 22px;
+	height: 22px;
+	background-position: 1000% 55%;
+	transition: background-position var(--stream-mode-hover-duration);
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd:hover .closeButton-30b1gR {
+	background-position: 50% 55%;
+	transition-delay: var(--stream-mode-hover-delay);
+}
+.closeIcon-3eoP1e {
+	transform: scaleX(0);
+	transition-delay: var(--stream-mode-hover-delay);
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd:hover .closeIcon-3eoP1e {
+	display: initial;
+	transform: scaleX(1);
+	transition-delay: var(--stream-mode-hover-delay);
+}
+
+/*this was an edit of this: https://discord.com/channels/538759280057122817/755005803303403570/959776343971741717 */
