@@ -1,0 +1,52 @@
+.CodeMirror,
+.CodeMirror-gutters {
+	font-family: "Consolas" !important;
+	font-size: 14px;
+	background-color: #1e1e1e !important;
+}
+
+.cm-tag,
+.cm-qualifier,
+.cm-builtin,
+.cm-variable-3 {
+	color: #d7ba7d !important;
+}
+.cm-def {
+	color: #c586c0 !important;
+}
+
+.cm-number {
+	color: #b5cea8 !important;
+}
+
+.cm-variable {
+	color: #dcdcaa !important;
+}
+
+.cm-atom,
+.cm-string {
+	color: #ce9178 !important;
+}
+
+.cm-keyword {
+	color: #569cd6 !important;
+}
+
+.cm-property,
+.cm-variable-2,
+.cm-meta {
+	color: #9cdcfe !important;
+}
+
+.cm-comment {
+	color: #699951 !important;
+}
+
+.cm-searching {
+	background-color: rgba(100, 51.4, 20.8, 1) !important;
+}
+
+/* this doesn't do work but i will blame Quick CSS instead of myself */
+.CodeMirror::selection {
+	background-color: rgba(31.8, 65.9, 100, 1) !important;
+}
