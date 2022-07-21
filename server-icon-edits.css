@@ -15,8 +15,12 @@ div [data-list-item-id="guildsnav___206934458954153984"]:hover {
 	height: 30px;
 	width: 30px;
 	border-radius: 9px;
+	margin-left: 1px !important;
 }
-[aria-label="User Profile Modal"] .listRow-2nO1T6 [style*="background-image:url('https://cdn.discordapp.com/icons/206934458954153984/')"] {
+
+[aria-label="User Profile Modal"]
+	.listRow-2nO1T6
+	[style*="206934458954153984"] {
 	content: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.png");
 	max-height: 40px;
 	max-width: 40px;
@@ -39,9 +43,12 @@ div [data-list-item-id="guildsnav___196618637950451712"]:hover {
 	height: 30px;
 	width: 30px;
 	border-radius: 9px;
+	margin-left: 1px !important;
 }
 
-[aria-label="User Profile Modal"] .listRow-2nO1T6 [style*="background-image:url('https://cdn.discordapp.com/icons/196618637950451712/')"] {
+[aria-label="User Profile Modal"]
+	.listRow-2nO1T6
+	[style*="196618637950451712"] {
 	content: url("https://snare-hawk.github.io/snare-CSS/images/NH_icon.png");
 	max-height: 40px;
 	max-width: 40px;
