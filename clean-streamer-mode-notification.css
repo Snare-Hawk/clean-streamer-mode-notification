@@ -64,4 +64,26 @@
 	transition-delay: var(--stream-mode-hover-delay);
 }
 
+.closeIcon-3eoP1e {
+	display: none;
+}
+
+/**
+ * Snippet from #css-snippets applied the Jul 22, 2022 at 4:55:36 PM
+ * Created by King Fish#4902 (499400512559382538)
+ * Snippet ID: 1000142662629851258
+ */
+
+.closeButton-30b1gR::before {
+	content: "✕";
+	font-size: 15px;
+	position: absolute;
+	top: 1px;
+	right: 13px;
+}
+
+/* this is here because without it, it'd look weird compared to the other examples of where the icon is present */
+
+/** 1000142662629851258 */
+
 /*this was an edit of this: https://discord.com/channels/538759280057122817/755005803303403570/959776343971741717 */

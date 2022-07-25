@@ -27,6 +27,14 @@ div [data-list-item-id="guildsnav___206934458954153984"]:hover {
 	max-width: 40px;
 }
 
+[alt="RiiConnect24"].guildIcon-2SUGiq {
+	content: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.png");
+}
+
+[mask="url(#svg-mask-squircle)"] [alt="RiiConnect24"].guildIcon-2SUGiq {
+	content: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.gif");
+}
+
 /* always has the normal server icon for Nintendo Homebrew */
 div [data-list-item-id="guildsnav___196618637950451712"],
 .container-12Vzf8 [src*="19661863795045171"] {
@@ -54,4 +62,12 @@ div [data-list-item-id="guildsnav___196618637950451712"]:hover {
 	content: url("https://snare-hawk.github.io/snare-CSS/images/NH_icon.png");
 	max-height: 40px;
 	max-width: 40px;
+}
+
+[alt="Nintendo Homebrew"].guildIcon-2SUGiq {
+	content: url("https://snare-hawk.github.io/snare-CSS/images/NH_icon.png");
+}
+
+[mask="url(#svg-mask-squircle)"] [alt="Nintendo Homebrew"].guildIcon-2SUGiq {
+	content: url("https://snare-hawk.github.io/snare-CSS/images/NH_icon.gif");
 }
