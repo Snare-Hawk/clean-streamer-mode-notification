@@ -1,6 +1,6 @@
 .CodeMirror,
 .CodeMirror-gutters {
-	font-family: "Consolas" !important;
+	font-family: "Consolas", "Monospace" !important;
 	font-size: 14px;
 	background-color: #1e1e1e !important;
 }
