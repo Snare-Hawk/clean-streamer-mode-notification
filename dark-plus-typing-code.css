@@ -1,0 +1,66 @@
+[class*="textArea"] [class*="codeLine"] {
+	font-family: "Consolas", "Monospace" !important;
+	font-size: 14px;
+	background-color: #1e1e1e !important;
+}
+
+/* html */
+.hljs-name {
+	color: #569cd6;
+}
+
+.hljs-tag:not(.hljs-name) {
+	color: #808080;
+}
+
+.hljs-tag.hljs-attr {
+	color: #9cdcfe;
+}
+
+.hljs-tag.hljs-string {
+	color: #ce9178;
+}
+/* css */
+.hljs-selector-tag,
+.hljs-selector-class,
+.hljs-selector-id,
+.hljs-selector-pseudo {
+	color: #d7ba7d;
+}
+
+.hljs-attribute {
+	color: #9cdcfe;
+}
+
+.hljs-number {
+	color: #b5cea8;
+}
+
+.hljs-meta {
+	color: #569cd6;
+}
+
+.hljs-string {
+	color: #ce9178;
+}
+
+.hljs-keyword {
+	color: #c586c0;
+}
+
+.hljs-comment {
+	color: #699951 !important;
+}
+
+/* json */
+.hljs-attr {
+	color: #9cdcfe;
+}
+
+.hljs-literal {
+	color: #569cd6;
+}
+
+.css.hljs-built_in {
+	color: #dcdcaa;
+}
