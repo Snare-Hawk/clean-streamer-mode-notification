@@ -34,20 +34,9 @@
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
 	.avatarWrapper-1B9FTW {
-	margin-top: -69px !important;
-	margin-bottom: -69px !important;
 	padding: var(--inner-primary);
 	grid-column: 1;
 	height: 40px;
-}
-
-.container-YkUktl:not(.powercord-spotify .container-YkUktl) .avatar-1EWyVD {
-	margin-left: 10px !important;
-	margin-top: auto !important;
-}
-
-.container-YkUktl:not(.powercord-spotify .container-YkUktl) .nameTag-sc-gpq {
-	margin-top: 12px;
 }
 
 .container-YkUktl:not(.powercord-spotify .container-YkUktl)
@@ -77,9 +66,24 @@
 	height: 35px;
 }
 
-.container-YkUktl:not(.powercord-spotify .container-YkUktl)
-	.directionRow-2Iu2A9 {
-	padding-top: 15px !important;
+.container-YkUktl:hover
+	.avatarWrapper-1B9FTW:not(.powercord-spotify .avatarWrapper-1B9FTW) {
+	background-color: var(--background-modifier-selected);
+}
+
+.container-YkUktl
+	.avatarWrapper-1B9FTW:not(.powercord-spotify
+		.avatarWrapper-1B9FTW, .container-YkUktl .flex-2S1XBF button) {
+	width: 220px;
+	height: 38px;
+	margin: 3px;
+	padding-left: 4px;
+	border-radius: 10px;
+}
+
+#account.menu-1QACrS {
+	bottom: -5px;
+	left: -2px !important;
 }
 
 /* makes spotify seek elements look a little bit better */
@@ -89,5 +93,5 @@ div.powercord-spotify:hover div.spotify-seek-elements {
 
 div.spotify-seek-bar {
 	--borders: 1px var(--background-modifier-accent) solid;
-	border-bottom: var(--borders) !important;
+	border-bottom: var(--borders);
 }
