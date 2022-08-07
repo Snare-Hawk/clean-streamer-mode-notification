@@ -35,8 +35,14 @@ div [data-list-item-id="guildsnav___206934458954153984"]:hover {
 	content: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.gif");
 }
 
-[style*="206934458954153984"] {
+[style*="icons/206934458954153984"] {
 	background-image: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.gif") !important;
+}
+
+.powercord-fake-modal-container
+	.avatarStack-3vfSFa
+	img[src*="206934458954153984"] {
+	content: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.png") !important;
 }
 
 /* always has the normal server icon for Nintendo Homebrew */
@@ -76,6 +82,12 @@ div [data-list-item-id="guildsnav___196618637950451712"]:hover {
 	content: url("https://snare-hawk.github.io/snare-CSS/images/NH_icon.gif");
 }
 
-[style*="196618637950451712"] {
+[style*="icons/196618637950451712"] {
 	background-image: url("https://snare-hawk.github.io/snare-CSS/images/NH_icon.gif") !important;
+}
+
+.powercord-fake-modal-container
+	.avatarStack-3vfSFa
+	img[src*="196618637950451712"] {
+	content: url("https://snare-hawk.github.io/snare-CSS/images/RC24_fix.png") !important;
 }
