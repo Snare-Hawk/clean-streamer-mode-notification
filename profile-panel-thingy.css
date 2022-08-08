@@ -66,8 +66,7 @@
 	height: 35px;
 }
 
-.container-YkUktl:hover
-	.avatarWrapper-1B9FTW:not(.powercord-spotify .avatarWrapper-1B9FTW) {
+.avatarWrapper-1B9FTW:not(.powercord-spotify .avatarWrapper-1B9FTW):hover {
 	background-color: var(--background-modifier-selected);
 }
 
