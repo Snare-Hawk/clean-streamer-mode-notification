@@ -1,0 +1,63 @@
+/* sorts and seperates plugins in settings */
+/* separator above "REPLUGGED" */
+[data-item-id="Overlay"] + .separator-2wx7h6 {
+	display: flex;
+	flex-direction: column;
+}
+
+/* custom separator */
+[data-item-id="Overlay"] + .separator-2wx7h6::before {
+	content: "";
+	order: 1;
+	border-top: 1px solid var(--background-modifier-accent);
+	position: relative;
+	top: 213px; /*182*/
+}
+
+/* header */
+[data-item-id="Overlay"] + .separator-2wx7h6::after {
+	content: "PLUGIN SETTINGS";
+	order: 2;
+	color: var(--channels-default);
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 12px;
+	position: relative;
+	top: 229px; /*197*/
+}
+
+/* moves down the plugin settings and anything below them a bit */
+[data-item-id="pc-updater"] ~ div {
+	position: relative;
+	top: -34px;
+}
+
+/* the sorting */
+.side-2ur1Qk
+	> div[data-item-id="pc-updater"]
+	~ div:not([data-item-id="pc-moduleManager-plugins"], [data-item-id="pc-moduleManager-themes"], [data-item-id="css-toggler"], div[data-item-id="bdCompat"]) {
+	order: 6;
+	top: 43px;
+}
+
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-plugins"] {
+	order: 1 !important;
+}
+
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-themes"] {
+	order: 2 !important;
+}
+
+.side-2ur1Qk > div[data-item-id="css-toggler"] {
+	order: 3 !important;
+}
+
+.side-2ur1Qk > div[data-item-id="bdCompat"] {
+	order: 4 !important;
+}
+
+.item-3XjbnG[data-item-id="pc-updater"] {
+	align-items: unset !important;
+	overflow: visible;
+	top: 100px;
+}
