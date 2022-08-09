@@ -11,7 +11,7 @@
 	order: 1;
 	border-top: 1px solid var(--background-modifier-accent);
 	position: relative;
-	top: 215px; /*182*/
+	top: 215px;
 }
 
 /* header */
@@ -23,7 +23,7 @@
 	font-weight: 700;
 	font-size: 12px;
 	position: relative;
-	top: 231px; /*197*/
+	top: 231px;
 }
 
 /* moves down the plugin settings and anything below them a bit */
