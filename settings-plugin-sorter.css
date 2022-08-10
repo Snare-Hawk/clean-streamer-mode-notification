@@ -11,7 +11,7 @@
 	order: 1;
 	border-top: 1px solid var(--background-modifier-accent);
 	position: relative;
-	top: 215px;
+	top: calc(79px + calc(34px * var(--multiplier)));
 }
 
 /* header */
@@ -23,7 +23,7 @@
 	font-weight: 700;
 	font-size: 12px;
 	position: relative;
-	top: 231px;
+	top: calc(95px + calc(34px * var(--multiplier)));
 }
 
 /* moves down the plugin settings and anything below them a bit */
@@ -35,9 +35,9 @@
 /* the sorting */
 .side-2ur1Qk
 	> div[data-item-id="pc-updater"]
-	~ div:not([data-item-id="pc-moduleManager-plugins"], [data-item-id="pc-moduleManager-themes"], [data-item-id="css-toggler"], div[data-item-id="bdCompat"]) {
+	~ div:not([data-item-id="pc-moduleManager-plugins"], [data-item-id="pc-moduleManager-themes"], [data-item-id="pc-moduleManager-css"], [data-item-id="css-toggler"], div[data-item-id="bdCompat"]) {
 	order: 6;
-	top: 45px;
+	top: 53px;
 }
 
 .side-2ur1Qk > div[data-item-id="pc-moduleManager-plugins"] {
@@ -48,16 +48,20 @@
 	order: 2 !important;
 }
 
-.side-2ur1Qk > div[data-item-id="css-toggler"] {
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-css"] {
 	order: 3 !important;
 }
 
-.side-2ur1Qk > div[data-item-id="bdCompat"] {
+.side-2ur1Qk > div[data-item-id="css-toggler"] {
 	order: 4 !important;
+}
+
+.side-2ur1Qk > div[data-item-id="bdCompat"] {
+	order: 5 !important;
 }
 
 .item-3XjbnG[data-item-id="pc-updater"] {
 	align-items: unset !important;
 	overflow: visible;
-	top: 102px;
+	top: calc(-34px + calc(34px * var(--multiplier)));
 }
