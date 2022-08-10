@@ -37,7 +37,7 @@
 	> div[data-item-id="pc-updater"]
 	~ div:not([data-item-id="pc-moduleManager-plugins"], [data-item-id="pc-moduleManager-themes"], [data-item-id="pc-moduleManager-css"], [data-item-id="css-toggler"], div[data-item-id="bdCompat"]) {
 	order: 6;
-	top: 53px;
+	top: 45px;
 }
 
 .side-2ur1Qk > div[data-item-id="pc-moduleManager-plugins"] {
