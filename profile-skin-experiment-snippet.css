@@ -1,8 +1,10 @@
+/* makes profile popout look like the skin experiment with CSS */
+/* avatar */
 .avatar-2Vndt_:not([aria-label="Set Status"] .avatar-2Vndt_) {
 	border-color: var(--background-secondary-alt);
 	background-color: var(--background-secondary-alt);
 }
-
+/* header */
 .headerTop-3GPUSF
 	.headerText-1-WmDq:not([aria-label="Set Status"] .headerText-1-WmDq) {
 	padding-top: 14px;
@@ -17,12 +19,13 @@
 .scrollerSeparator-CHLxyV {
 	box-shadow: none;
 }
-
+/* body of popout */
 .body-2wLx-E {
 	padding: 0px 12px;
 	margin: -8px 4px 0px 4px;
 	background-color: var(--background-secondary-alt);
 }
+
 .body-2wLx-E > div {
 	padding: 12px;
 	margin-bottom: -8px !important;
@@ -31,6 +34,8 @@
 .bodyInnerWrapper-2bQs1k {
 	border-radius: 0px 0px 8px 8px;
 }
+
+/* badges */
 .profileBadges-2pItdR {
 	border-radius: 8px;
 	background-color: var(--background-floating);
@@ -40,12 +45,13 @@
 	right: 18px;
 }
 
-.container-1gYwHN > * {
-	margin: 0px !important;
-}
-
 .profileBadges-2pItdR:empty {
 	display: none;
+}
+
+/* why did these badges have margins */
+.container-1gYwHN > * {
+	margin: 0px !important;
 }
 
 .userPopout-2j1gM4 {
@@ -56,17 +62,18 @@
 	background-color: transparent;
 }
 
+/* message input */
 .footer-3naVBw input {
 	background: var(--background-floating);
 	height: 42px;
 	width: 268px;
 	margin-bottom: 2px;
 	border-radius: 0px 0px 8px 8px;
-	padding-top: px;
 }
 .footer-3naVBw .inputWrapper-1YNMmM {
 	margin-top: -20px;
 }
+
 .userPopout-2j1gM4 .message-2CShn3 {
 	position: sticky;
 }
