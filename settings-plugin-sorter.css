@@ -1,11 +1,12 @@
+/** this was before plugin settings became native
 /* sorts and seperates plugins in settings */
-/* separator above "REPLUGGED" */
+/* separator above "REPLUGGED" 
 [data-item-id="Overlay"] + .separator-2wx7h6 {
 	display: flex;
 	flex-direction: column;
 }
 
-/* custom separator */
+/* custom separator 
 [data-item-id="Overlay"] + .separator-2wx7h6::before {
 	content: "";
 	order: 1;
@@ -14,7 +15,7 @@
 	top: calc(79px + calc(34px * var(--multiplier)));
 }
 
-/* header */
+/* header 
 [data-item-id="Overlay"] + .separator-2wx7h6::after {
 	content: "PLUGIN SETTINGS";
 	order: 2;
@@ -26,42 +27,41 @@
 	top: calc(95px + calc(34px * var(--multiplier)));
 }
 
-/* moves down the plugin settings and anything below them a bit */
+/* moves down the plugin settings and anything below them a bit 
 [data-item-id="pc-updater"] ~ div {
 	position: relative;
 	top: -34px;
 }
-
+*/
 /* the sorting */
-.side-2ur1Qk
-	> div[data-item-id="pc-updater"]
-	~ div:not([data-item-id="pc-moduleManager-plugins"], [data-item-id="pc-moduleManager-themes"], [data-item-id="pc-moduleManager-css"], [data-item-id="css-toggler"], div[data-item-id="bdCompat"]) {
-	order: 6;
-	top: 45px;
-}
+/* adds CSS toggler and bdCompact to the replugged tab and moves the updater tab */
 
 .side-2ur1Qk > div[data-item-id="pc-moduleManager-plugins"] {
 	order: 1 !important;
 }
 
-.side-2ur1Qk > div[data-item-id="pc-moduleManager-themes"] {
+.side-2ur1Qk > div[data-item-id="bdCompat"] {
 	order: 2 !important;
 }
 
-.side-2ur1Qk > div[data-item-id="pc-moduleManager-css"] {
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-themes"] {
 	order: 3 !important;
 }
 
-.side-2ur1Qk > div[data-item-id="css-toggler"] {
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-css"] {
 	order: 4 !important;
 }
 
-.side-2ur1Qk > div[data-item-id="bdCompat"] {
+.side-2ur1Qk > div[data-item-id="css-toggler"] {
 	order: 5 !important;
+}
+
+.side-2ur1Qk > div[data-item-id="pc-updater"],
+.side-2ur1Qk > div[data-item-id="pc-updater"] ~ div {
+	order: 6;
 }
 
 .item-3XjbnG[data-item-id="pc-updater"] {
 	align-items: unset !important;
 	overflow: visible;
-	top: calc(-34px + calc(34px * var(--multiplier)));
 }
