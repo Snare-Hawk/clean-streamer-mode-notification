@@ -85,6 +85,10 @@
 	left: -2px !important;
 }
 
+.hoverRoll-2XwpoF {
+	padding-right: 10px;
+}
+
 /* makes spotify seek elements look a little bit better */
 div.powercord-spotify:hover div.spotify-seek-elements {
 	margin: 3px auto;
