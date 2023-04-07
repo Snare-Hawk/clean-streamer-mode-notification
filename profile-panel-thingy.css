@@ -15,7 +15,7 @@
     margin: 0px;
 }
 
-button:hover {
+.container-YkUktl button:hover {
     color: var(--interactive-hover);
     background-color: var(--background-modifier-selected) !important;
 }
