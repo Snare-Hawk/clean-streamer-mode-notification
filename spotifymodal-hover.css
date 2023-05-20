@@ -1,0 +1,20 @@
+/* adds hover animation to controls for replugged's spotifymodal plugin */
+/* ensures this is always at the same height because for some reason it changes on hover even when hover is set off */
+#spotify-modal div.divider {
+    margin-top: -12px;
+}
+
+#spotify-modal:hover div.divider {
+    margin-top: initial;
+}
+
+#spotify-modal-root #spotify-modal .controls {
+    transition: 250ms ease-out;
+    opacity: 0 !important;
+    height: 0 !important;
+}
+
+#spotify-modal-root #spotify-modal:hover .controls {
+    height: 24px !important;
+    opacity: 1 !important;
+}

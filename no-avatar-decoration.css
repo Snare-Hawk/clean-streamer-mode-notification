@@ -1,0 +1,27 @@
+/* removes any instance of any profile decoration */
+
+[mask="url(#svg-mask-avatar-decoration-profile-status-square-80)"] {
+    mask: url("#svg-mask-avatar-status-round-80") !important;
+}
+
+[mask="url(#svg-mask-avatar-decoration-profile-status-mobile-square-80)"] {
+    mask: url("#svg-mask-avatar-status-mobile-80") !important;
+}
+
+svg[class*="avatarDecorationHint"] {
+    left: 0px;
+    top: 0px;
+    height: 80px;
+    width: 80px;
+}
+
+[class^="userPopoutInner"] [class^="wrapper"] [class^="banner"],
+[class^="avatarDecoration"],
+[mask^="url(#svg-mask-avatar-decoration-status"],
+[class*="bannerSVGWrapper"] mask image {
+    display: none;
+}
+
+[mask^="url(#svg-mask-avatar-decoration-profile"] [class*="avatarHintInner"] {
+    font-size: 12px !important;
+}
