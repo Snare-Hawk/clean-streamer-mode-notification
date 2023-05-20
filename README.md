@@ -52,6 +52,44 @@ Makes streamer mode notification less intrusive.
 
 ![image](https://i.imgur.com/WpsCXsJ.png)
 
+## Revert Notification Bars
+
+Reverts the unread and mention notification bar, that is different in public servers, to what they look like typically.
+
+```css
+@import url("https://snare-hawk.github.io/snare-CSS/revert-notifications.css");
+```
+
+#### Before:
+
+##### Unreads:
+
+![before](https://i.imgur.com/g5xEhGQ.png)
+
+##### Mentions:
+
+![after](https://i.imgur.com/xNfyKle.png)
+
+#### After:
+
+##### Unreads:
+
+![before](https://i.imgur.com/jtAOaSL.png)
+
+##### Mentions:
+
+![after](https://i.imgur.com/XHT4cUa.png)
+
+## SpotifyModal Controls Hover Animation
+
+Adds a hover animation to the controls for [Spotify Modal](https://github.com/Socketlike/SpotifyModal), a Replugged plugin.
+
+```css
+@import url("https://snare-hawk.github.io/snare-CSS/spotifymodal-hover.css");
+```
+
+![image](https://i.imgur.com/FFtKzsb.gif)
+
 ## Profile Skin Experiment Snippet \*
 
 Makes the profile pop-out look like the skin experiment with CSS.
@@ -94,7 +132,7 @@ Like it says, `X` must be the number of options you have under the header, the m
 
 ![image](https://i.imgur.com/LduI3Nh.png)
 
-\* Now that this is has a part of Replugged, most of the above is now outdated, though I had updated the CSS so it adds CSS Toggler and bdCompact to be under the Replugged tab. (This was before the SWC, where these plugins were still avaiable in Replugged.)
+\* Now that this is has a part of Replugged, most of the above is now outdated, though I had updated the CSS so it adds CSS Toggler and bdCompact to be under the Replugged tab. (This was before the SWC change, where these plugins were still avaiable in Replugged.)
 
 ## Dark+ Quick CSS \*
 
