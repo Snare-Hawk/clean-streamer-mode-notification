@@ -90,6 +90,13 @@ Adds a hover animation to the controls for [Spotify Modal](https://github.com/So
 
 ![image](https://i.imgur.com/FFtKzsb.gif)
 
+## No Avatar Decorations
+
+Removes any and all avatar decorations.
+
+```css
+@import url("https://snare-hawk.github.io/snare-CSS/no-avatar-decorations.css");
+```
 ## Profile Skin Experiment Snippet \*
 
 Makes the profile pop-out look like the skin experiment with CSS.
