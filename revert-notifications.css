@@ -8,7 +8,7 @@
     color: var(--status-positive-text) !important;
 }
 
-[class^="sidebar"] [class^="bar"] div:not([class^="mentionsBar"]) {
+[class^="sidebar"] [class^="bar"] [class*="barText"] {
     text-transform: uppercase;
     margin: auto;
 }
