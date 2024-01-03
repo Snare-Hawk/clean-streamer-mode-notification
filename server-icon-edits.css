@@ -1,4 +1,4 @@
-/* fixes RiiConnect24's default icon */
+/* fixes RiiConnect24's default icon 
 div [data-list-item-id="guildsnav___206934458954153984"] img {
     content: url("images/RC24_fix.png");
     max-width: 96px;
@@ -42,7 +42,7 @@ div [data-list-item-id="guildsnav___206934458954153984"]:hover img {
     .avatarStack-3vfSFa
     img[src*="206934458954153984"] {
     content: url("images/RC24_fix.png") !important;
-}
+} */
 
 /* always has the normal server icon for Nintendo Homebrew */
 div [data-list-item-id="guildsnav___196618637950451712"] img {
