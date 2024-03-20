@@ -1,5 +1,5 @@
 /* reverts the unread and mention notification bar that is different in public servers for some reason to look like they normally do */
-[class^="sidebar"] [class^="bar"] {
+[class^="sidebar"] [class^="bar__"] {
     width: 208px;
     background-color: var(--background-accent);
 }
@@ -8,28 +8,27 @@
     color: var(--status-positive-text) !important;
 }
 
-[class^="sidebar"] [class^="bar"] [class*="barText"] {
+[class^="sidebar"] [class^="bar__"] [class*="barText"] {
     text-transform: uppercase;
     margin: auto;
 }
 
-[class^="sidebar"] [class^="bar"][class^="mentionsBar"] [class^="barText"] {
+[class^="sidebar"] [class^="bar__"][class^="mentionsBar"] [class^="barText"] {
     content: " " !important;
     font-size: 0px;
     padding: 0px;
 }
-[class^="sidebar"]
-    [class^="bar"][class^="mentionsBar"]
-    [class^="barText"]::after {
+
+[class^="sidebar"] [class^="bar__"][class^="mentionsBar"] [class^="barText"]::after {
     content: "New Mentions";
     font-size: 12px !important;
 }
 
-[class^="sidebar"] [class^="bar"][class^="mentionsBar"] {
+[class^="sidebar"] [class^="bar__"][class^="mentionsBar"] {
     background: var(--status-danger) !important;
     height: 16px !important;
 }
 
-[class^="sidebar"] [class^="bar"] svg {
+[class^="sidebar"] [class^="bar__"] svg {
     display: none;
 }
