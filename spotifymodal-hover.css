@@ -1,20 +1,28 @@
 /* adds hover animation to controls for replugged's spotifymodal plugin */
 /* ensures this is always at the same height because for some reason it changes on hover even when hover is set off */
+/* visibility on controls must be set to "Shown" */
 #spotify-modal div.divider {
-    margin-top: -12px;
+    margin-top: -3px;
 }
 
 #spotify-modal:hover div.divider {
     margin-top: initial;
 }
 
-#spotify-modal-root #spotify-modal .controls {
-    transition: 250ms ease-out;
+#spotify-modal-root
+    #spotify-modal
+    :is(.controls-container, .seekbar-timestamps) {
+    transition: 250ms ease-out !important;
     opacity: 0 !important;
     height: 0 !important;
 }
 
-#spotify-modal-root #spotify-modal:hover .controls {
+#spotify-modal-root #spotify-modal:hover .controls-container {
     height: 24px !important;
+    opacity: 1 !important;
+}
+
+#spotify-modal-root #spotify-modal:hover .seekbar-timestamps {
+    height: 14px !important;
     opacity: 1 !important;
 }
